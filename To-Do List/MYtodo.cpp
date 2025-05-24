@@ -6,6 +6,48 @@
 
  //Done, In Progress, Not started
 //Create list of tasks
+//resets 24 hours - maybe
+//Add, Delete, Quit, Completed
+//pops up a cute cat everytime you complete a task
+//Goal Section
+//Planner like with the week
+//Can choose daily, weekly, or monthly formats
+ //These are for future progression, keep it simple for now girly
+class Solution {
+private:
+
+
+public:
+    list<string> tasks;
+
+
+
+
+};
+
+
+
+void Add(string addTask) {
+    cout << "Adding Task to List\n";
+    cout << "Enter Your Desired Task: ";
+    cin >> addTask;
+}
+void Delete(int delTask) {
+    cout << "Choose task to Delete: ";
+    cin >> delTask;
+    cout << "Deleting " << delTask << " from List\n";
+}
+void Complete(string comTask) {
+    cout << "Choose task Completed: ";
+    cin >> comTask;
+    cout << comTask << " now Completed\n";
+
+}
+void Quit() {
+    cout << "Successfully Exited\n";
+}
+
+
 
 int main() {
     char input_choice;
